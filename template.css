@@ -105,8 +105,15 @@ img.three {
 	border-radius: 50%;
 }
 div.table {
-	display:table;
+	display: table;
 	table-layout: fixed;
 	width: 100%;
 	text-align:center;
+}
+div.table-row {
+	display: table-row;
+	table-layout: fixed;
+}
+div.table-cell {
+	display: table-cell;
 }

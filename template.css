@@ -1,12 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
 
-.background {
-	background-color:#333333;
-}
 h1 {
 	font-family: 'Source Sans Pro'
 }
 body {
+	background-color: #333333;
 	margin: 0 auto;
 	font: 12 px 'Source Sans Pro';
 	font-weight: 400;

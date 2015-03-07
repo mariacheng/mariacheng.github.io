@@ -6,6 +6,7 @@ body {
 	font: 20px'Source Sans Pro';
 	font-weight: 300;
 	color: white;
+	background-image:url('footer_lodyas.png');
 }
 header {
 	background-color: #cc3333;
@@ -43,7 +44,7 @@ nav a:link, nav a:visited {
 nav a:hover {
 	color: #ff6666;
 }
-section#image-back {
+section#welcome {
 	z-index: -1;
 	background-image:url('colorful_clouds_2-wallpaper-1600x900.jpg');
 	width: 100%;
@@ -59,4 +60,19 @@ div#welcome-text {
 	opacity: 0.8;
 	color: white;
 	font-size: 100px;
+}
+section#about {
+	background-color: #cccccc;
+	background-position: center;
+	width: 80%;
+	height: 300px;
+}
+section#about a:link, section#about a:visited {
+	text-decoration: none;
+	color: black;
+}
+h1 {
+	background-color: 
+	font-size: 30px;
+	font-weight: 400;
 }

@@ -104,3 +104,9 @@ div.item-text {
 img.three {
 	border-radius: 50%;
 }
+div.table {
+	display:table;
+	table-layout: fixed;
+	width: 100%;
+	text-align:center;
+}

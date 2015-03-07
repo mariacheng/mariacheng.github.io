@@ -107,13 +107,19 @@ img.three {
 div.table {
 	display: table;
 	table-layout: fixed;
-	width: 100%;
+	width: 80%;
 	text-align:center;
+	background-color: white;
+	position: absolute;
+	top: 300px;
+	left: 10%;
+	height: 100px;
 }
 div.table-row {
 	display: table-row;
-	table-layout: fixed;
 }
 div.table-cell {
+	padding: 40px 30px 40px 30px;
 	display: table-cell;
+	color: black;
 }

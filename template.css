@@ -67,22 +67,19 @@ div#welcome-text {
 	color: white;
 	font-size: 100px;
 }
+
+/*About Section*/
 section#about {
 	width: 100%;
 }
-section#about a:link, section#about a:visited {
-	text-decoration: none;
-	color: black;
-}
 
-/*About Section*/
 div#about-back , div.three-back{
 	background-color: #0f0f0f;
 	width: 90%;
 	margin: 0 auto;
 	text-align: center;
 }
-div#about-text {
+div#about-text , div.anime-text {
 	text-align: left;
 	padding-left: 30px;
 	padding-bottom: 20px;
@@ -131,9 +128,6 @@ div.table-cell {
 	display: table-cell;
 	color: black;
 }
-.work-button {
-
-}
 /*Buttons*/
 .button {
 	/*Button Styles*/
@@ -153,24 +147,52 @@ div.table-cell {
 	background: linear-gradient(top, #34696f, #2f5f63);
 
 }
-a.button, a.work-button {
+a.button, a.int-button {
 	text-decoration: none;
 }
 a.button:hover {
 	background-color: #62d8d8;
 	z-index: -1;
 }
-.work-button {
+.int-button {
 	display: block;
 	margin: 0 auto;
 	width: 90%;
 	background-color: #cccccc;
-	border: 2px solid black;
+	border: 1px solid black;
 	color: black;
 	text-align: center;
 	font-size: 25px;
 	font-weight: 400px;
 	line-height: 100px;
+}
+a.int-button:hover {
+	background-color: #d6d6d6;
+	z-index: -1;
+}
+/*Anime Page*/
+section#akame {
+	width: 100%;
+}
+div#akame-text {
+	z-index: -1;
+	background-image:url('akame.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000000;
+	opacity: 0.8;
+	color: white;
+	font-size: 50px;
+}
+div.anime-back{
+	background-color: #0f0f0f;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
 }
 /*Footer*/
 #footer {

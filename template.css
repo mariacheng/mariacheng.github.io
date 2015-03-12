@@ -9,7 +9,10 @@ body {
 }
 html, body, #container { height: 100%; }
 body > #container { height: auto; min-height: 100%; }
-
+p { 
+    width:inherit; /* width: 100px; */
+    white-space: pre-wrap;
+}
 /*Header*/
 header {
 	background: #cc3333;
@@ -73,13 +76,12 @@ section#about {
 	width: 100%;
 }
 
-div#about-back , div.three-back{
+div#about-back , div.three-back, div.anime-back {
 	background-color: #0f0f0f;
 	width: 90%;
 	margin: 0 auto;
-	text-align: center;
 }
-div#about-text , div.anime-text {
+div#about-text, div.anime-text {
 	text-align: left;
 	padding-left: 30px;
 	padding-bottom: 20px;
@@ -171,28 +173,33 @@ a.int-button:hover {
 	z-index: -1;
 }
 /*Anime Page*/
-section#akame {
-	width: 100%;
-}
-div#akame-text {
+section#akame-head {
 	z-index: -1;
 	background-image:url('akame.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 100%;
 	height: 400px;
-	position: absolute;
+	width: 100%;
+}
+div.anime-title {
+	position: relative;
+	top: 300px;
+	width: 100%;
 	text-align: center;
 	text-shadow: 2px 2px 2px #000000;
 	opacity: 0.8;
 	color: white;
 	font-size: 50px;
 }
-div.anime-back{
-	background-color: #0f0f0f;
-	width: 90%;
-	margin: 0 auto;
-	text-align: center;
+section#tokyo-head {
+	z-index: -1;
+	background-image:url('Tokyo Ghoul.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	top: 20px;
+	height: 400px;
+	width: 100%;
 }
 /*Footer*/
 #footer {

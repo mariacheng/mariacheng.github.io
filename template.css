@@ -34,7 +34,7 @@ a#title {
 	font-size: 30px;
 	font-weight: 100;
 }
-a#title:hover { color: #ff6666; }
+a#title:hover { color: #ffc4c4; }
 nav {
 	display: inline-block;
 	float: right;
@@ -56,7 +56,7 @@ nav a:link, nav a:visited {
 	text-decoration: none;
 	color: #ffffff;
 }
-nav a:hover { color: #ff6666; }
+nav a:hover { color: #ffc4c4; }
 
 /*Welcome Section*/
 section#welcome {

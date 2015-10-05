@@ -1,2 +1,2 @@
 # mariacheng.github.io
-Site
+Personal site for Maria Cheng

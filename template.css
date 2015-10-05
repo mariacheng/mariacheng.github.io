@@ -26,7 +26,15 @@ div#header-title {
 	display: inline-block;
 	float: left;
 	padding-left: 30px;
+	padding-top: 5px;
 }
+a#title {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 100;
+}
+a#title:hover { color: #ff6666; }
 nav {
 	display: inline-block;
 	float: right;
@@ -48,9 +56,7 @@ nav a:link, nav a:visited {
 	text-decoration: none;
 	color: #ffffff;
 }
-nav a:hover {
-	color: #ff6666;
-}
+nav a:hover { color: #ff6666; }
 
 /*Welcome Section*/
 section#welcome {
@@ -130,6 +136,7 @@ div.table-cell {
 	display: table-cell;
 	color: black;
 }
+
 /*Photography Page*/
 div#photo-back {
 	position: relative;
@@ -188,35 +195,6 @@ a.button:hover {
 a.int-button:hover {
 	background-color: #d6d6d6;
 	z-index: -1;
-}
-/*Anime Page*/
-section#akame-head {
-	z-index: -1;
-	background-image:url('akame.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 400px;
-	width: 100%;
-}
-div.anime-title {
-	position: relative;
-	top: 300px;
-	width: 100%;
-	text-align: center;
-	text-shadow: 2px 2px 2px #000000;
-	opacity: 0.8;
-	color: white;
-	font-size: 50px;
-}
-section#tokyo-head {
-	z-index: -1;
-	background-image:url('Tokyo Ghoul.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	position: relative;
-	top: 20px;
-	height: 400px;
-	width: 100%;
 }
 /*Footer*/
 #footer {

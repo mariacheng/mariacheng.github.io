@@ -1,39 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Climbing</title>
-		<link rel="stylesheet" type="text/css" href="template.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="new.css">
 		<link rel="shortcut icon" type="image/png" href="logo.png"/>
+
+		<title>Welcome to my website!</title>
 	</head>
 	<body>
-		<header>
-			<div id="header-title">
-				<a id="title" href="index.html">MARIA CHENG</a>
-			</div>
-			<nav>
-				<ul>
-          <li class="with-border"><a href="index.html#about-page">About</a></li>
-					<li class="with-border"><a href="work.html">Work</a></li>
-					<li class="with-border"><a href="interests.html">Interests</a></li>
-					<li class="with-border"><a href="inspiration.html">Inspiration</a></li>
-					<li><a href="links.html">Links</a></li>
-				</ul>
-			</nav>
-		</header>
-    <main>
-			<div id="photo-back">
-        <div class="entry"><img src="rock oasis.jpg" alt="Rock Oasis" style="width:400px;height:600px"></div>
-        <div class="entry"><img src="PAC room.jpg" alt="PAC bouldering room" style="width:400px;height:600px"></div>
-        <div class="entry"><img src="climbing wall.jpg" alt="Climbing Wall" style="width:400px;height:600px"></div>
-        <div class="entry"><p style="width:840px;height:100px">Climbing is a huge passion for me. I hope to climb outdoors in the near future</p>
-			</div>
-		</main>
-		<div id="container">
-			<div id="content"></div>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-red">
+		<a class="navbar-brand" href="index.html">MARIA CHENG</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#about-page">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/mariacheng">Work</a>
+				</li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Interests</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item active" href="climbing.html">Climbing</a>
+						<a class="dropdown-item" href="photography.html">Photography</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="inspiration.html">Inspiration</a>
+				</li>
+			</ul>
 		</div>
-		<div id="footer">
-			<p> © 2015 Maria Cheng</p>
+	</nav>
+
+		<div class="container mt-5 pt-5">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card mb-4 shadow-sm">
+						<img class="img-fluid entry" src="./climbing/DSC09111.jpg">
+						<div class="card-body">
+							<p class="card-text">March 2019 - Sent my first V10 (Closed Eye Visuals) - I sent my highest bouldering grade attempted outdoors which may not have been a V10 for me, largely due to the fact that I just found new painful micro-crimps to make my way up the boulder.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4">
+					<div class="card mb-4 shadow-sm">
+						<img class="img-fluid entry" src="./climbing/25889846610_f178d44ff5_o.jpg">
+						<div class="card-body">
+							<p class="card-text">March 2016 - First time competing for University Bouldering Series and managed to make second place in the intermediate females category!</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card mb-4 shadow-sm">
+						<img class="img-fluid entry" src="./climbing/Maria_v1-3.jpg">
+						<div class="card-body">
+							<p class="card-text">August 2018 - Having so much fun outdoor bouldering!</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card mb-4 shadow-sm">
+						<img class="img-fluid entry" src="./climbing/PAC room.jpg" alt="PAC bouldering room">
+						<div class="card-body">
+							<p class="card-text">Where it all started - my passion for climbing began in the local university bouldering room</p>
+						</div>
+					</div>
+				</div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="img-fluid entry" src="./climbing/rock oasis.jpg" alt="Rock Oasis">
+            <div class="card-body">
+              <p class="card-text">At a climbing gym in Toronto - I think this was a V3 problem, but I was quite proud to be sitting on top of the mushroom-looking hold</p>
+            </div>
+          </div>
+        </div>
+
+				<div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="img-fluid entry" src="./climbing/climbing wall.jpg" alt="Climbing Wall">
+            <div class="card-body">
+              <p class="card-text">Attractive dragon climb for bouldering at a higher-than-normal height</p>
+            </div>
+          </div>
+        </div>
+			</div>
 		</div>
+
+		<hr class="container">
+
+		<div class="container my-5">
+			<div class="row text-center justify-content-center">
+				<div class="col-md-1">
+					<a href="https://www.linkedin.com/in/maria-cheng/"><img class="logo" src="linkedin.png"></a>
+				</div>
+				<div class="col-md-1">
+					<a tabindex="0" role="button" data-toggle="modal" title="" data-placement="top" data-target="#emailmodal"><img class="logo" src="gmail.png"></a>
+				</div>
+				<div class="col-md-1">
+					<a href="https://www.instagram.com/_mariacheng/"><img class="logo" src="instagram.png"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="emailmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+					<div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">Contact</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <p> Please email me @mariacheng02@gmail.com </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<footer class="container">
+			<p class="float-left">© 2019 Maria Cheng<br>
+				Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			</p>
+			<p class="float-right"><a href="#">Back to top</a></p><br>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>

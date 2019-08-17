@@ -1,91 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Welcome to my website!</title>
-		<link rel="stylesheet" type="text/css" href="template.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="new.css">
 		<link rel="shortcut icon" type="image/png" href="logo.png"/>
+
+		<title>Welcome to my website!</title>
 	</head>
 	<body>
-		<header>
-			<div id="header-title">
-				<a id="title" href="index.html">MARIA CHENG</a>
-			</div>
-			<nav>
-				<ul>
-					<li class="with-border"><a href="#about-page">About</a></li>
-					<li class="with-border"><a href="work.html">Work</a></li>
-					<li class="with-border"><a href="interests.html">Interests</a></li>
-					<li class="with-border"><a href="inspiration.html">Inspiration</a></li>
-					<li><a href="links.html">Links</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<section id="welcome">
-				<div id="welcome-text">Welcome!</div>
-			</section>
-			<section id="about">
-				<div id="about-back">
-					<h1><a name="about-page">Me in 20 seconds (or maybe more)</a></h1>
-					<div id="about-text">
-						<p>Hi! My name is Maria Cheng and I am a recent graduate from the University of Waterloo. I studied Nanotechnology engineering, and realized by third year (a bit too late) that it wasn't the right program for me, and I had little passion for what I was learning. Nevertheless, the intense cirriculum of this program taught me a couple of important lessons and introduced me to newfound experiences that I would never had known, had I not taken this path:
-							<ol>
-								<li> Co-op experiences</li>
-								<li> How to learn </li>
-								<li> How to handle stress and pressure, and still perform </li>
-							</ol>
-						<div>
-							<h3> Co-op experiences</h3>
-								<p>The co-op program introduced me to positions in both the industry and research settings. It allowed me to accept and explore software development as a possible career path, and realize that I was not interested in labratory work. It was through my last co-op placement that I encountered machine learning and implemented models on medical images for cancer detection. This was a completely new area for me and sparked my interests profoundly. I decided that this was a possible career path that I would pursue. In my final year, I immersed myself in the world of machine learning and AI. I took courses revolving around databases, pattern recognition, autonomous vehicles and the social impacts of AI. I thoroughly enjoyed this term the most and even though I did not have a formal foundation on programming, I managed to succeed in each course.
-								</p>
-							<h3> How to learn </h3>
-								<em> Work hard in silence, let your success be your noise. <br> - Frank Ocean </em>
-									<p>There are two main lessons about learning I will forever continue to hold:
-									<ol>
-										<li> Hard work forever pays </li>
-											I will never forget the hard work I put into this program and these courses, trying to meet deadlines and submissions with my best work forward. In the end, I can look proudly at my accomplishments and say that I invested 100% of myself into my work. As a result, I managed to graduate on the Dean's Honours List.
-										<li> I learn more by doing than by absorbing knowledge like a sponge </li>
-											I forget the things I learn in class if I don't end up using and applying those concepts in labs, assignments and at work. You can read up about a topic all you want, but to truly master the subject, you need to know how to use it in action.
-									</ol>
-								</p>
-							<h3> How to handle stress and pressure, and still perform </h3>
-								<em> Just breathe </em>
-								<p>I remember in third year, I had one term where the final exam season consisted of 7 exams within the span of 2 weeks. When I look back at this time, I think "How the hell did I manage that???" Yet I did, and I am still alive today. What motivated me during that time was the gratification of overcoming a difficult obstacle. Most of the courses weren't easy and were not my best subject; I wanted to prove that I had learnt something during the term and showcase my hard work in one grand finale.
-								</p>
-						</div>
-						</p>
-					</div>
-				</div>
-			</section>
-			<section id="pages">
-				<div class="three-items">
-					<div class="three-back">
-					<h1>Pages</h1>
-						<div class="an-item">
-							<div class="item-text">
-								<a href="https://github.com/mariacheng" class="button">Work</a>
-								<p>Some ongoing projects as well as completed ones.</p>
-							</div>
-						</div>
-						<div class="an-item">
-							<div class="item-text">
-								<a href="inspiration.html" class="button">Inspiration</a>
-								<p>What I look to for inspiration and motivation.</p>
-							</div>
-						</div>
-						<div class="an-item">
-							<div class="item-text">
-								<a href="interests.html" class="button">Interests</a>
-								<p>Namely climbing, photography, and food.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-		<div id="footer">
-			<p>© 2019 Maria Cheng</p>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-red">
+		<a class="navbar-brand" href="index.html">MARIA CHENG</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about-page">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/mariacheng">Work</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Interests</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="climbing.html">Climbing</a>
+						<a class="dropdown-item" href="photography.html">Photography</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="inspiration.html">Inspiration</a>
+				</li>
+			</ul>
 		</div>
+	</nav>
+
+		<div class="jumbotron jumbotron-fluid d-flex align-items-center">
+			<div class="container-fluid">
+				<h1 class="display-1 welcome-text">Welcome!</h1>
+				<p class="lead welcome-text" style="font-size:28px;font-weight:200;">I'm Maria, a machine learning and software enthusiast, who loves rock climbing!</p>
+			</div>
+		</div>
+
+		<div class="container px-5 py-1 bg-light rounded text-justify shadow-sm"><a name="about-page"></a>
+			<div class="page-header">
+				<h1>Me in 20 seconds (or maybe more)</h1>
+			</div>
+			<p>Hi! My name is Maria Cheng and I am a recent graduate from the University of Waterloo. I studied Nanotechnology engineering, and realized by third year (a bit too late) that it wasn't the right program for me, and I had little passion for what I was learning. In fact, what I was interested in was software development. Nevertheless, the intense cirriculum of this program taught me a couple of important lessons and introduced me to newfound experiences that I would never had known, had I not taken this path: </p>
+				<ol>
+					<li> Co-op experiences</li>
+					<li> How to learn </li>
+					<li> How to handle stress and pressure, and still perform </li>
+				</ol>
+				<h3> Co-op experiences</h3>
+					<p>The co-op program introduced me to positions in both the industry and research settings. It allowed me to accept and explore software development as a possible career path, and realize that I was not interested in labratory work. It was through my last co-op placement that I encountered machine learning and implemented models on medical images for cancer detection. This was a completely new area for me and sparked my interests profoundly. I decided that this was a possible career path that I would pursue. In my final year, I immersed myself in the world of machine learning and AI. I took courses revolving around databases, pattern recognition, autonomous vehicles and the social impacts of AI. I thoroughly enjoyed this term the most and even though I did not have a formal foundation on programming, I managed to succeed in each course.
+					</p>
+				<h3> How to learn </h3>
+					<em> Work hard in silence, let your success be your noise. <br> - Frank Ocean </em>
+					<p>There are two main lessons about learning I will forever continue to hold:
+						<ol>
+							<li> Hard work forever pays </li>
+								<p>I will never forget the hard work I put into this program and these courses, trying to meet deadlines and submissions with my best work forward. In the end, I can look proudly at my accomplishments and say that I invested 100% of myself into my work. As a result, I managed to graduate on the Dean's Honours List. </p>
+							<li> I learn more by doing than by absorbing knowledge like a sponge </li>
+								<p>I forget the things I learn in class if I don't end up using and applying those concepts in labs, assignments and at work. You can read up about a topic all you want, but to truly master the subject, you need to know how to use it in action.</p>
+						</ol>
+					</p>
+				<h3> How to handle stress and pressure, and still perform </h3>
+					<em> Just breathe </em>
+					<p>I remember in third year, I had one term where the final exam season consisted of 7 exams within the span of 2 weeks. When I look back at this time, I think "How the hell did I manage that???" Yet I did, and I am still alive today. What motivated me during that time was the gratification of overcoming a difficult obstacle. Most of the courses weren't easy and were not my best subject; I wanted to prove that I had learnt something during the term and showcase my hard work in one grand finale.
+					</p>
+		</div>
+
+		<div class="container px-5 py-1 bg-light rounded shadow-sm mb-3">
+			<div class="page-header">
+				<h2>Pages</h2>
+			</div>
+			<div class="row text-center m-3">
+				<div class="col-md">
+					<img class="img-fluid rounded" width="150px" height="150px" src="data.png" alt="work"><br>
+					<a href="https://github.com/mariacheng" class="button h3">Work</a>
+					<p>Some ongoing projects as well as completed ones.</p>
+				</div>
+				<div class="col-md">
+					<img class="img-fluid rounded" width="150px" height="150px" src="inspiration.png" alt="inspiration"><br>
+					<a href="inspiration.html" class="button h3">Inspiration</a>
+					<p>What I look to for inspiration and motivation.</p>
+				</div>
+				<div class="col-md">
+					<img class="img-fluid rounded" width="150px" height="150px" src="climbing.png" alt="interests"><br>
+					<h3 class="button">Interests</h3>
+					<p>Namely <a class="button" href="climbing.html">climbing</a> and <a class="button" href="photography.html">photography</a>.</p>
+				</div>
+			</div>
+		</div>
+
+		<hr class="container">
+
+		<div class="container my-5">
+			<div class="row text-center justify-content-center">
+				<div class="col-md-1">
+					<a href="https://www.linkedin.com/in/maria-cheng/"><img class="logo" src="linkedin.png"></a>
+				</div>
+				<div class="col-md-1">
+					<a tabindex="0" role="button" data-toggle="modal" title="" data-placement="top" data-target="#emailmodal"><img class="logo" src="gmail.png"></a>
+				</div>
+				<div class="col-md-1">
+					<a href="https://www.instagram.com/_mariacheng/"><img class="logo" src="instagram.png"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="emailmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+					<div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">Contact</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <p> Please email me @mariacheng02@gmail.com </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<footer class="container">
+			<p class="float-left">© 2019 Maria Cheng<br>
+				Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			</p>
+			<p class="float-right"><a href="#">Back to top</a></p><br>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>

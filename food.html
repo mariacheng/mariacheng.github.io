@@ -1,38 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Food</title>
-		<link rel="stylesheet" type="text/css" href="template.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="new.css">
 		<link rel="shortcut icon" type="image/png" href="logo.png"/>
+
+		<title>Welcome to my website!</title>
 	</head>
 	<body>
-		<header>
-			<div id="header-title">
-				<a id="title" href="index.html">MARIA CHENG</a>
-			</div>
-			<nav>
-				<ul>
-          <li class="with-border"><a href="index.html#about-page">About</a></li>
-					<li class="with-border"><a href="work.html">Work</a></li>
-					<li class="with-border"><a href="interests.html">Interests</a></li>
-					<li class="with-border"><a href="inspiration.html">Inspiration</a></li>
-					<li><a href="links.html">Links</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<div id="photo-back">
-				<div class="entry"><img src="pizza.jpg" alt="Pizza" style="width:400px;height:600px"></div>
-				<div class="entry"><img src="garlic bread.jpg" alt="Garlic Bread" style="width:400px;height:600px"></div>
-				<div class="entry"><img src="Joeys burger.jpg" alt="Burger" style="width:400px;height:600px"></div>
-			</div>
-		</main>
-		<div id="container">
-			<div id="content"></div>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-red">
+		<a class="navbar-brand" href="index.html">MARIA CHENG</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#about-page">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/mariacheng">Work</a>
+				</li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Interests</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="climbing.html">Climbing</a>
+						<a class="dropdown-item active" href="food.html">Food</a>
+						<a class="dropdown-item" href="photography.html">Photography</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="inspiration.html">Inspiration</a>
+				</li>
+			</ul>
 		</div>
-		<div id="footer">
-			<p> © 2015 Maria Cheng</p>
+	</nav>
+
+	<div class="container mt-5 pt-5">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card mb-4 shadow-sm">
+					<img class="img-fluid entry" src="./food/pizza.jpg" alt="pizza">
+					<div class="card-body">
+						<p class="card-text">asdfasdf</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4 shadow-sm">
+					<img class="img-fluid entry" src="./food/garlic bread.jpg" alt="garlic bread">
+					<div class="card-body">
+						<p class="card-text">asdfasdf</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4 shadow-sm">
+					<img class="img-fluid entry" src="./food/Joeys burger.jpg" alt="burger">
+					<div class="card-body">
+						<p class="card-text">asdfasdf</p>
+					</div>
+				</div>
+			</div>
 		</div>
+	</div>
+
+		<hr class="container">
+
+		<div class="container my-5">
+			<div class="row text-center justify-content-center">
+				<div class="col-md-1">
+					<a href="https://www.linkedin.com/in/maria-cheng/"><img class="logo" src="linkedin.png"></a>
+				</div>
+				<div class="col-md-1">
+					<a href="https://www.linkedin.com/in/maria-cheng/"><img class="logo" src="gmail.png"></a>
+				</div>
+				<div class="col-md-1">
+					<a href="https://www.instagram.com/_mariacheng/"><img class="logo" src="instagram.png"></a>
+				</div>
+			</div>
+		</div>
+
+		<footer class="container">
+			<p class="float-left">© 2019 Maria Cheng<br>
+				Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			</p>
+			<p class="float-right"><a href="#">Back to top</a></p><br>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>

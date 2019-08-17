@@ -1,31 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Inspiration</title>
-		<link rel="stylesheet" type="text/css" href="template.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="new.css">
 		<link rel="shortcut icon" type="image/png" href="logo.png"/>
+
+		<title>Welcome to my website!</title>
 	</head>
 	<body>
-		<header>
-			<div id="header-title">
-				<a id="title" href="index.html">MARIA CHENG</a>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-red">
+		<a class="navbar-brand" href="index.html">MARIA CHENG</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#about-page">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/mariacheng">Work</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Interests</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="climbing.html">Climbing</a>
+						<a class="dropdown-item" href="photography.html">Photography</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="inspiration.html">Inspiration</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+		<hr class="container">
+
+		<div class="container mt-5 pt-5">
+			<div class="card mb-4 shadow-sm">
+				<div class="card-body">
+					<h1>Inspiring Links</h1><br>
+					<h3>Climbing</h3>
+						<ul>
+							<li><a class="button" href="https://www.redbull.com/au-en/episodes/AP-1VDMSFC7W2111">Margo Hayes</a></li>
+							<li><a class="button" href="https://www.trainingbeta.com/short-climber-training/">Training for short climbers - Neely Quinn</a></li>
+						</ul>
+					<h3>Machine Learning</h3>
+						<ul>
+							<li><a class="button" href="https://towardsdatascience.com/i-want-to-learn-artificial-intelligence-and-machine-learning-where-can-i-start-7a392a3086ec">Getting started in AI</a></li>
+							<li><a class="button" href="https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463">Cheat Sheets for AI</a></li>
+						</ul>
+					<h3>Nanotechnology</h3>
+						<ul>
+							<li><a class="button" href="https://www.sciencedirect.com/science/article/pii/S0021979719308938?utm_campaign=STMJ_75273_AUTH_SERV_PPUB&utm_medium=email&utm_dgroup=Email1Publishing&utm_acid=217471497&SIS_ID=-1&dgcid=STMJ_75273_AUTH_SERV_PPUB&CMX_ID=&utm_in=DM563904&utm_source=AC_30">Polymeric hollow microcapsules (PHM) via cellulose nanocrystal stabilized Pickering emulsion polymerization</a></li>
+							<li><a class="button" href="https://drive.google.com/open?id=1EPQ7VaN0QHd-Dn_e4HBISxTWZnPenRsMJKvC8nQ7bm4">Capstone Design Project - Radiative Cooling Film</a></li>
+						</ul>
+					<h3>Fun Links</h3>
+						<ul>
+							<li><a class="button" href="https://medium.com/@jackdire/dear-guy-who-just-made-my-burrito-fd08c0babb57">Dear Guy Who Just Made My Burrito</a></li>
+				</div>
 			</div>
-			<nav>
-				<ul>
-					<li class="with-border"><a href="index.html#about-page">About</a></li>
-					<li class="with-border"><a href="work.html">Work</a></li>
-					<li class="with-border"><a href="interests.html">Interests</a></li>
-					<li class="with-border"><a href="inspiration.html">Inspiration</a></li>
-					<li><a href="links.html">Links</a></li>
-				</ul>
-			</nav>
-		</header>
-		<div id="container">
-			<div id="content"></div>
 		</div>
-		<div id="footer">
-			<p>© 2015 Maria Cheng</p>
+
+		<div class="container my-5">
+			<div class="row text-center justify-content-center">
+				<div class="col-md-1">
+					<a href="https://www.linkedin.com/in/maria-cheng/"><img class="logo" src="linkedin.png"></a>
+				</div>
+				<div class="col-md-1">
+					<a tabindex="0" role="button" data-toggle="modal" title="" data-placement="top" data-target="#emailmodal"><img class="logo" src="gmail.png"></a>
+				</div>
+				<div class="col-md-1">
+					<a href="https://www.instagram.com/_mariacheng/"><img class="logo" src="instagram.png"></a>
+				</div>
+			</div>
 		</div>
+
+		<div class="modal fade" id="emailmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+					<div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">Contact</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <p> Please email me @mariacheng02@gmail.com </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<footer class="container">
+			<p class="float-left">© 2019 Maria Cheng<br>
+				Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			</p>
+			<p class="float-right"><a href="#">Back to top</a></p><br>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="./js/component-popover.js"></script>
 	</body>
 </html>
